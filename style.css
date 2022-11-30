@@ -1,0 +1,429 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.flex_sup{
+    display: flex;
+}
+
+
+/* Header -------------------------------------------------------- */
+
+.container_header{
+    background-color: #363636 ;
+    padding: 5px;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+
+/* LINKS DO HEADER*/
+
+.container_links_header{
+    align-items: center;
+    margin: 0 40px 0 0;
+
+}
+.container_links_header a {
+    font-family: 'arial';   
+    /* font-weight: 800; */
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+.container_links_header a:hover {
+    color: #E4BBB9;
+    text-decoration: none;
+}
+
+
+/* BTN DE LOGIN */
+
+.container_links_header button {
+    background-color: #363636;
+    border-color: #fff;
+    padding: 5px 20px;
+    color: #fff;
+    font-family: 'arial';   
+    font-size: 1em;
+}
+.container_links_header button:hover {
+    background-color: #E4BBB9;
+    color: rgb(36, 36, 36);
+    border-color: #E4BBB9;
+}
+
+
+
+/* HERO ------------------------------------------------------------------ */
+
+
+/* BACKGROUND DO HERO */
+
+.container_hero{
+    background: url(img/background.jpg);
+    justify-content: space-between;
+    height:450px;
+}
+
+
+/* TEXTO DO HERO */
+
+.invo_text_hero{
+    flex-direction: column;
+    margin: 80px 0 0 140px;
+}
+
+.invo_text_hero{
+    width: 40%;
+    align-items: center;
+    text-align: center;
+
+}
+.title_hero{
+    width: 60%;
+}
+.title_hero h1{
+    margin: 30px 0;
+    font-family: 'arial';   
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+/* TEXTO 1 */
+
+.invo_text_hero small {
+    font-family: 'arial';   
+    /* font-weight: 600; */
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0 20px 0px;
+}
+
+/* TEXTO 2 */
+
+.invo_text_hero p {
+    font-family: 'arial';   
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0 20px 0px;
+}
+
+
+
+
+/* CARROSSEL */
+
+
+.container_carrossel{
+    flex-direction: column;
+}
+
+.text_carrossel {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_carrossel h2{
+    font-family: 'arial';   
+    font-weight: 600;
+    font-size: 26px;
+    color: #434343;
+    margin: 40px 0px 20px 0px;
+
+}
+
+.text_carrossel p{
+    font-family: 'arial';   
+    font-size: 15px;
+    color: #282828;
+    margin: 0px 0px 40px 0px;
+
+}
+
+
+/* CARROSSEL -------------------------------------------------------------   */
+
+.involucro_carrossel{
+    justify-items: center;
+    margin: 0px 0px 80px 0px;
+}
+.involuvro_itens {
+    /* width: 50%; */
+    justify-content: center;
+}
+.iten_carrossel{
+    width: 15%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px;
+    margin: 0 10px;
+
+}
+
+.header_img_carrossel {
+    max-height: 188px;
+    background-color: #FAEDE5;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: center;
+    min-height: 181px;
+}
+
+/* footer CARROSSEL */
+
+.invo_footer_carrossel{
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.footer_text_carrossel{
+    width: 100%;
+}
+
+.footer_header_text_carrossel{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer_header_text_carrossel p{
+    color: #4E4E4E;
+    font-size: 12px;
+    font-family: 'arial';   
+    font-weight: 600;
+
+}
+
+.footer_desconto {
+    background-color: #4A783C;
+    padding: 0 15px;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.footer_desconto p{
+    color: #fff;
+    font-size: 8px;
+    font-family: 'arial';   
+}
+
+
+/* BTN COMPRA */
+
+.btn_compra{
+    justify-content: center;
+    margin-top: 12px;
+}
+.btn_compra button {
+    background-color: #fff;
+    border-color: #4A783C;
+    padding: 5px 20px;
+    color: #4A783C;
+    font-family: 'arial';   
+    font-weight: 600;
+    font-size: 1em;
+}
+.btn_compra button:hover {
+    background-color: #4A783C;
+    color: #fff;
+    border-color: #4A783C;
+}
+
+/* BTN DO CARROSSEL */
+
+
+.btns_carrossel{
+    justify-content: center;
+    position: absolute;
+}
+
+/* DE VOLTAR */
+.btn_carrossel_voltar{
+    margin-top: 107px;
+    margin-right: 625px;
+}
+.btn_carrossel_voltar button{
+    background-color: #4A783C;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+
+    border: none;
+
+}
+.btn_carrossel_voltar button:hover {
+    background-color: #4E4E4E;
+    color: #fff;
+}
+
+.span span{
+    color: #fff;
+}
+
+
+/* DE PROSSEGUIR */
+
+.btn_carrossel_prosseguir{
+    margin-top: 107px;
+    /* margin-right: 625px; */
+}
+
+.btn_carrossel_prosseguir button{
+    background-color: #4A783C;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+
+    border: none;
+
+}
+.btn_carrossel_prosseguir button:hover {
+    background-color: #4E4E4E;
+    color: #fff;
+}
+
+.span span{
+    color: #fff;
+}
+
+
+
+/* NOVIADADE -------------------------- */
+
+
+.container_novidade_formulario {
+    background-color: #E2B8B9;
+    justify-content: space-between;
+}
+
+
+/* formulario */
+
+
+.invo_formulario{
+    flex-direction: column;
+    background-color: #fff;
+    margin: 20px 100px 20px 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* texto */
+.title_formulario{
+    flex-direction: column;
+}
+.title_formulario h3{
+    font-family: 'arial';   
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #313131;
+    text-align: center;
+    margin-top: 20px;
+}
+.title_formulario p{
+    font-family: 'arial';   
+    /* font-weight: 800; */
+    font-size: .8em;
+    color: #313131;
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr {
+    background-color: #4A783C;
+    width: 10%;
+    justify-content: center;
+}
+
+/* inputs */
+
+.invo_inputs_formulario {
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+.input_formulario {
+    flex-direction: column;
+    padding: 0 50px;
+
+}
+.input_formulario p{
+        font-family: 'arial';   
+        /* font-weight: 800; */
+        font-size: .9em;
+        color: #313131;
+}
+.input_formulario input{
+        border-color: #4A783C;
+        border-width: 4px;
+        border-radius: 10px;
+        margin-top: 5px;
+}
+
+/* BTN ENVIAR */
+
+
+.btn_enviar{
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.btn_enviar button {
+    background-color: #363636;
+    border-color: #363636;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'arial';   
+    font-size: 1em;
+}
+.btn_enviar button:hover {
+    background-color: #E4BBB9;
+    color: rgb(36, 36, 36);
+    border-color: #E4BBB9;
+}
+
+
+
+/* FOOTER ----------------------- */
+
+.container_footer{
+    bottom: 0;
+    background-color: #363636;
+    height: 80px;
+    margin-top: 45px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container_footer p{
+    font-family: 'arial';   
+    /* font-weight: 600; */
+    font-size: 1em;
+    color: #fff;
+}
+
+
+.img6{
+    width: 80%;
+    height: 80%;
+}
+
+
+/* Ativar card */
+
+.ativarCard{
+    display: block;
+}
+.desativarCard{
+    display: none;
+}

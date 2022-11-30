@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>CN - Choose Near</title>
+</head>
+<body> 
+    <!-- Header -->
+    <div class="flex_sup container_header">
+        <div class="logo_header">
+            <img src="img/logo.png" alt="Logo da CN - Chosse Near">
+        </div>
+        <div class="flex_sup container_links_header">
+            <a href="">Sobre</a>
+            <a href="">Promoções</a>
+            <button>Login</button>
+        </div>
+    </div>
+    <!-- Hero -->
+    <div class="flex_sup container_hero">
+        <div class="flex_sup invo_text_hero">
+            <div class="flex_sup title_hero">
+                <h1>Bem-vindo à Choose Near!</h1>
+            </div>
+            <small>Descubra sua essência e á mantenha perto de ti.</small>
+            <p>Estamos com ofertas especiais nesse mês, venha conferir.</p>
+        </div>
+        <div class="flex_sup img_hero">
+            <img src="img/perfumeHero.png" alt="">
+        </div>
+    </div>
+    <!-- Carrossel -->
+    <div class="flex_sup container_carrossel">
+        <div class="flex_sup text_carrossel">
+                <h2>PROMOÇÕES DO MÊS DE LANÇAMENTO</h2>
+                <p>No mesmo do lançamento do nosso site preparamos descontos especiais, para manter você sempre pertinho de nós. Confira logo abaixo.</p>
+        </div>
+        <div class="flex-sup involucro_carrossel">
+            <!-- ITENS DO CARROSSEL -->
+            <div class="flex_sup involuvro_itens">
+                <div class="flex_sup btns_carrossel">
+                    <!-- 1 -->
+                    <div class="flex_sup btn_carrossel_voltar">
+                        <button onclick="regredirCarrossel()" class="span"><span class="material-icons">arrow_back</span></button>
+                    </div>
+                    <!-- 2 -->
+                    <div class="flex_sup btn_carrossel_prosseguir">
+                        <button onclick="prosseguirCarrossel()" class="span"><span class="material-icons">arrow_forward</span></button>
+                    </div>
+                </div>
+                <div class="flex-sup iten_carrossel" id="card1">
+                    <div class="flex_sup header_img_carrossel">
+                        <img src="img/perfume1.png" alt="">
+                    </div>
+                    <div class="flex_sup invo_footer_carrossel">
+                        <div class="footer_text_carrossel">
+                            <div class="flex_sup footer_header_text_carrossel">
+                                <p>Luna Absoluteización</p>
+                                <div class="flex_sup footer_desconto">
+                                    <p>-50%</p>
+                                </div>
+                            </div>
+                            <div class="flex_sup btn_compra">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-sup iten_carrossel" id="card2">
+                    <div class="flex_sup header_img_carrossel">
+                        <img src="img/perfume2.png" alt="">
+                    </div>
+                    <div class="flex_sup invo_footer_carrossel">
+                        <div class="footer_text_carrossel">
+                            <div class="flex_sup footer_header_text_carrossel">
+                                <p>Luna Absoluteización</p>
+                                <div class="flex_sup footer_desconto">
+                                    <p>-50%</p>
+                                </div>
+                            </div>
+                            <div class="flex_sup btn_compra">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-sup iten_carrossel" id="card3">
+                    <div class="flex_sup header_img_carrossel">
+                        <img src="img/perfume3.png" alt="">
+                    </div>
+                    <div class="flex_sup invo_footer_carrossel">
+                        <div class="footer_text_carrossel">
+                            <div class="flex_sup footer_header_text_carrossel">
+                                <p>Luna Absoluteización</p>
+                                <div class="flex_sup footer_desconto">
+                                    <p>-50%</p>
+                                </div>
+                            </div>
+                            <div class="flex_sup btn_compra">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-sup iten_carrossel" id="card4">
+                    <div class="flex_sup header_img_carrossel">
+                        <img class="img6" src="img/perfume6.png" alt="">
+                    </div>
+                    <div class="flex_sup invo_footer_carrossel">
+                        <div class="footer_text_carrossel">
+                            <div class="flex_sup footer_header_text_carrossel">
+                                <p>Luna Absoluteización</p>
+                                <div class="flex_sup footer_desconto">
+                                    <p>-50%</p>
+                                </div>
+                            </div>
+                            <div class="flex_sup btn_compra">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-sup iten_carrossel" id="card5">
+                    <div class="flex_sup header_img_carrossel">
+                        <img src="img/perfume7.png" alt="">
+                    </div>
+                    <div class="flex_sup invo_footer_carrossel">
+                        <div class="footer_text_carrossel">
+                            <div class="flex_sup footer_header_text_carrossel">
+                                <p>Luna Absoluteización</p>
+                                <div class="flex_sup footer_desconto">
+                                    <p>-50%</p>
+                                </div>
+                            </div>
+                            <div class="flex_sup btn_compra">
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Novidades -->
+    <div class="flex_sup container_novidade_formulario">
+        <div class="flex_sup invo_img_formulario">
+            <img src="img/modelo.png" alt="">
+        </div>
+        <div class="flex_sup invo_formulario">
+            <div class="flex_sup title_formulario">
+                <h3>Novidades do lançamento</h3>
+                <!-- <hr> -->
+                <p>Para receber mais novidades, como esses descontos incriveis, cadastre-se abaixo.</p>
+            </div>
+            <div class="flex_sup invo_inputs_formulario">
+                <div class="flex_sup input_formulario">
+                    <p>Nome</p>
+                    <input type="text" id="nome">
+                </div>
+                <div class="flex_sup invo_inputs_formulario">
+                    <div class="flex_sup input_formulario">
+                        <p>Email</p>
+                    <input type="text" id="email">
+                    </div>
+                </div>
+                <div class="flex_sup btn_enviar">
+                    <button onclick="enviaFormulario()">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="flex_sup container_footer">
+        <p>CHOSSE NEAR PRODUTOS DE BELEZA LTDA</p>
+    </div>
+</body>
+</html>
+
+<script>
+    var index = 0;
+    let cards = document.getElementsByClassName("iten_carrossel")
+    prosseguirCarrossel() 
+
+    function enviaFormulario() {
+        var nome = document.getElementById("nome").value;
+        var email = document.getElementById("email").value;
+
+        if(this.nome.value != "" && this.email.value != "") {
+            window.alert("Parabens " + this.nome.value + " Sua solicitação foi enviada, agora você fica por dentro de todas as novidades da CN. :)")
+        } else if(this.nome.value == "") {
+            window.alert("Para receber as novidades preencha seu NOME por favor!")
+        } else if(this.email.value == "") {
+            window.alert("Para receber as novidades preencha seu EMAIL por favor!")
+        } else {
+            window.alert("Para receber as novidades preencha seu NOME e EMAIL por favor!")
+        }
+    }
+
+    function prosseguirCarrossel() {
+        if(index != 3){
+            index += 1;
+
+            for (let i = 0; i < cards.length; i++){
+                if (i == index - 1 || i == index || i == index + 1){
+                    cards[i].style.display = "block"
+                }
+                else{
+                    cards[i].style.display = "none"
+                }
+            }
+        }
+    }
+
+    function regredirCarrossel() {
+        if(index != 1){
+            index -= 1;
+
+            for (let i = 0; i < cards.length; i++){
+                if (i == index - 1 || i == index || i == index + 1){
+                    cards[i].style.display = "block"
+                }
+                else{
+                    cards[i].style.display = "none"
+                }
+            }
+        }
+    }
+</script>
